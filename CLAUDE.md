@@ -10,7 +10,7 @@ This repo contains a single Home Assistant frontend theme, `themes/vane.yaml`, p
 
 There is no build, lint, or test tooling in this repo. Changes are made by editing `themes/vane.yaml` directly. Validate changes by loading/reloading the theme in a Home Assistant instance and visually checking both light and dark modes.
 
-HACS requires the theme file to live at `themes/<name>.yaml` at the repo root — don't move it back to the repo root or rename it without updating `hacs.json`.
+HACS requires the theme file to live at `themes/<name>.yaml` — don't move it back to the repo root or rename it without updating `hacs.json`.
 
 ## Architecture of `themes/vane.yaml`
 
@@ -22,3 +22,9 @@ The theme (`Vane`) is defined in two layers:
 **Implication:** when changing a color, edit the corresponding `vn-*` variable in the `modes:` block (in both `dark` and `light` if needed), not the flat variable list below it — the flat list should stay as indirection through `var(--vn-...)`.
 
 The `version:` field at the end of the file should be bumped when releasing a change, since it's used for HACS-based update tracking.
+
+## Other repo files
+
+- `README.md` (root) is the one GitHub actually displays and the one to edit. `.github/README.md` is kept as an identical copy — GitHub only falls back to it when no root README exists, so it's otherwise inert, but keep the two in sync if you edit either.
+- `.github/` also holds standard community-health files (`CODE_OF_CONDUCT.md`, `CODEOWNERS`, `FUNDING.yml`, `PULL_REQUEST_TEMPLATE.md`) — generic boilerplate, not project-specific logic.
+- `LICENSE` is MIT.
