@@ -59,11 +59,11 @@ first-class light and dark mode support.
 
 ### Screenshots
 
-<img src=".github/images/dashboard.png" alt="Home dashboard" width="50%">
+<img src=".github/images/dashboard.png" alt="Home dashboard">
 
-<img src=".github/images/devices.png" alt="Devices" width="50%">
+<img src=".github/images/devices.png" alt="Devices">
 
-<img src=".github/images/energy.png" alt="Energy" width="50%">
+<img src=".github/images/energy.png" alt="Energy">
 
 ## Installation
 
