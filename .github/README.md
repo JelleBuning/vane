@@ -11,10 +11,6 @@
   <h3 align="center">Vane</h3>
   <p align="center">
     A clean, minimal Home Assistant theme with matching light and dark modes.
-    <br />
-    <a href="https://github.com/JelleBuning/vane/issues">Report Bug</a>
-    ·
-    <a href="https://github.com/JelleBuning/vane/issues">Request Feature</a>
   </p>
 </div>
 
@@ -59,9 +55,11 @@ first-class light and dark mode support.
 
 ### Screenshots
 
-> TODO: add dashboard screenshots/GIFs here (light mode + dark mode). This is
-> the single most important thing for people to actually try the theme —
-> prioritize adding real screenshots before anything else.
+<img src="images/dashboard.png" alt="Home dashboard" width="50%">
+
+<img src="images/devices.png" alt="Devices" width="50%">
+
+<img src="images/energy.png" alt="Energy" width="50%">
 
 ## Installation
 

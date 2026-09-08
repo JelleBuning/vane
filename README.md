@@ -59,9 +59,11 @@ first-class light and dark mode support.
 
 ### Screenshots
 
-> TODO: add dashboard screenshots/GIFs here (light mode + dark mode). This is
-> the single most important thing for people to actually try the theme —
-> prioritize adding real screenshots before anything else.
+<img src=".github/images/dashboard.png" alt="Home dashboard" width="50%">
+
+<img src=".github/images/devices.png" alt="Devices" width="50%">
+
+<img src=".github/images/energy.png" alt="Energy" width="50%">
 
 ## Installation
 
