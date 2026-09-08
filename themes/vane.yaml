@@ -1,0 +1,207 @@
+Vane:
+  font-family: '"Google Sans Flex", Figtree, "Roboto Flex", Roboto, Noto, sans-serif'
+  modes:
+    dark:
+      vn-primary: "#8daefc"
+      vn-primary-light: "#a9cafc"
+
+      vn-bg-main: "#151515"
+      vn-bg-secondary: "#303030"
+      vn-bg-card: "#1d1d1dff"
+
+      vn-bg-sidebar: "#202020"
+      vn-bg-sidebar-selected: "#2c2c2c"
+      vn-divider: "#353535"
+
+      vn-text-primary: "#e1e1e1"
+      vn-text-secondary: "#9b9b9b"
+      vn-text-disabled: "#4f4f4f"
+      vn-text-invert: "#000000"
+
+      vn-icon-inactive: "#959697ff"
+      vn-icon-active: "#f0efefff"
+
+      vn-indicator-bar: "#3c3c3c"
+
+      vn-error: "#ec4e4eff"
+      vn-warning: "#f99938ff"
+      vn-success: "#55b05aff"
+      vn-info: "#40a0d3ff"
+
+      vn-domain-camera: var(--vn-primary)
+      vn-domain-light: "#fbe19b"
+      vn-domain-cover: "#b2e4b4ff"
+      vn-domain-climate: "#d38c87ff"
+      vn-domain-mediaplayer: "#c996c7ff"
+    light:
+      vn-primary: "#7aa0f8ff"
+      vn-primary-light: "#9cb8f8ff"
+
+      vn-bg-main: "#f5f5f5"
+      vn-bg-secondary: "#ffffff"
+      vn-bg-card: "#ffffff"
+
+      vn-bg-sidebar: "#ececec"
+      vn-bg-sidebar-selected: "#dcdcdc"
+      vn-divider: "#e0e0e0"
+
+      vn-text-primary: "#404040ff"
+      vn-text-secondary: "#7d7d7dff"
+      vn-text-disabled: "#b0b0b0"
+      vn-text-invert: "#ffffff"
+
+      vn-icon-inactive: "#757575ff"
+      vn-icon-active: "#4a76d1ff"
+
+      vn-indicator-bar: "#e0e0e0"
+
+      vn-error: "#d32f2fff"
+      vn-warning: "#f57c00ff"
+      vn-success: "#388e3cff"
+      vn-info: "#1976d2ff"
+
+      vn-domain-camera: var(--vn-primary)
+      vn-domain-light: "#f7d264ff"
+      vn-domain-cover: "#71af79ff"
+      vn-domain-climate: "#e98963ff"
+      vn-domain-mediaplayer: "#ca84c6ff"
+
+  primary-color: var(--vn-primary)
+  light-primary-color: var(--vn-primary-light)
+  primary-background-color: var(--vn-bg-main)
+  secondary-background-color: var(--vn-bg-secondary)
+  divider-color: var(--vn-divider)
+  primary-font-family: var(--font-family)
+  primary-text-color: var(--vn-text-primary)
+  secondary-text-color: var(--vn-text-secondary)
+  text-primary-color: var(--vn-text-invert)
+  disabled-text-color: var(--vn-text-disabled)
+  lovelace-background: var(--vn-bg-main)
+  view-background: var(--vn-bg-main)
+  card-background-color: var(--vn-bg-card)
+  mdc-theme-surface: var(--vn-bg-card)
+  sidebar-background-color: var(--vn-bg-sidebar)
+  sidebar-icon-color: var(--vn-text-secondary)
+  sidebar-text-color: var(--vn-text-primary)
+  sidebar-selected-background-color: var(--vn-bg-sidebar-selected)
+  sidebar-selected-icon-color: var(--vn-primary)
+  sidebar-selected-text-color: var(--vn-primary)
+  state-icon-color: var(--vn-icon-inactive)
+  state-icon-active-color: var(--vn-icon-active)
+  state-icon-unavailable-color: var(--vn-text-disabled)
+  state-switch-active-color: var(--vn-primary)
+  state-automation-active-color: var(--vn-primary)
+  state-light-active-color: var(--vn-domain-light)
+  state-climate-heat-color: var(--vn-domain-climate)
+  state-cover-active-color: var(--vn-domain-cover)
+  state-media_player-active-color: var(--vn-domain-mediaplayer)
+  paper-toggle-button-checked-button-color: var(--vn-primary)
+  paper-toggle-button-checked-bar-color: var(--vn-indicator-bar)
+  paper-toggle-button-unchecked-button-color: var(--vn-text-disabled)
+  paper-toggle-button-unchecked-bar-color: var(--vn-bg-sidebar-selected)
+  mdc-theme-primary: var(--vn-primary)
+  mdc-theme-secondary: var(--vn-primary)
+  mdc-theme-background: var(--vn-bg-main)
+  mdc-theme-on-primary: var(--vn-text-primary)
+  mdc-theme-on-secondary: var(--vn-text-invert)
+  mdc-theme-on-surface: var(--vn-text-primary)
+  md-switch-checked-track-color: var(--paper-toggle-button-checked-bar-color)
+  md-switch-checked-handle-color: var(--paper-toggle-button-checked-button-color)
+  md-switch-checked-button-color: var(--paper-toggle-button-checked-button-color)
+  md-switch-checked-icon-color: var(--paper-toggle-button-checked-bar-color)
+  md-switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  md-switch-unchecked-handle-color: var(--paper-toggle-button-unchecked-button-color)
+  md-switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  md-switch-unchecked-icon-color: var(--vn-text-disabled)
+  md-sys-color-primary: var(--vn-primary)
+  md-sys-color-on-primary: var(--vn-text-invert)
+  md-sys-color-primary-container: var(--vn-bg-sidebar-selected)
+  md-sys-color-on-primary-container: var(--vn-primary)
+  switch-checked-track-color: var(--paper-toggle-button-checked-bar-color)
+  switch-checked-button-color: var(--paper-toggle-button-checked-button-color)
+  switch-unchecked-track-color: var(--paper-toggle-button-unchecked-bar-color)
+  switch-unchecked-button-color: var(--paper-toggle-button-unchecked-button-color)
+  input-background-color: var(--vn-bg-secondary)
+  input-fill-color: var(--vn-bg-secondary)
+  input-ink-color: var(--vn-text-primary)
+  input-label-ink-color: var(--vn-text-secondary)
+  input-disabled-fill-color: var(--vn-bg-sidebar-selected)
+  input-disabled-ink-color: var(--vn-text-disabled)
+  input-idle-line-color: var(--vn-divider)
+  input-hover-line-color: var(--vn-primary)
+  mdc-select-fill-color: var(--vn-bg-secondary)
+  mdc-select-ink-color: var(--vn-text-primary)
+  mdc-select-label-ink-color: var(--vn-text-secondary)
+  mdc-select-idle-line-color: var(--vn-divider)
+  mdc-select-hover-line-color: var(--vn-primary)
+  mdc-radio-unchecked-color: var(--vn-text-secondary)
+  mdc-radio-disabled-color: var(--vn-text-disabled)
+  mdc-checkbox-unchecked-color: var(--vn-text-secondary)
+  mdc-theme-text-primary-on-background: var(--vn-text-primary)
+  mdc-theme-text-secondary-on-background: var(--vn-text-secondary)
+  mdc-text-field-ink-color: var(--vn-text-primary)
+  mdc-text-field-label-ink-color: var(--vn-text-secondary)
+  mdc-text-field-fill-color: var(--vn-bg-secondary)
+  mdc-text-field-idle-line-color: var(--vn-divider)
+  mdc-text-field-hover-line-color: var(--vn-primary)
+  error-color: var(--vn-error)
+  warning-color: var(--vn-warning)
+  success-color: var(--vn-success)
+  info-color: var(--vn-info)
+  app-header-background-color: var(--vn-bg-main)
+  app-header-edit-background-color: var(--vn-bg-main)
+  app-header-edit-text-color: var(--vn-text-primary)
+  app-header-border-bottom: none
+  accent-color: var(--vn-primary-light)
+  active-color: var(--vn-primary)
+  hover-color: var(--vn-primary-light)
+  stroke-color: var(--vn-divider)
+  track-color: var(--vn-indicator-bar)
+  label-badge-text-color: var(--vn-text-secondary)
+  sidebar-selected-background: var(--vn-bg-sidebar-selected)
+  sidebar-menu-button-text-color: var(--vn-text-secondary)
+  app-header-text-color: var(--vn-text-primary)
+  input-dropdown-icon-color: var(--vn-text-secondary)
+  mdc-select-dropdown-icon-color: var(--vn-text-secondary)
+  code-editor-background-color: var(--vn-bg-secondary)
+  codemirror-meta: var(--vn-text-primary)
+  codemirror-property: var(--vn-primary)
+  codemirror-atom: var(--vn-primary)
+  bubble-accent-color: var(--vn-primary)
+  bubble-select-arrow-background-color: var(--vn-primary)
+  bubble-select-list-item-accent-color: var(--vn-bg-sidebar-selected)
+  bubble-sub-button-light-background-color: var(--vn-bg-sidebar-selected)
+  bubble-main-background-color: var(--vn-bg-secondary)
+  bubble-pop-up-main-background-color: var(--vn-bg-card)
+  ha-color-primary: "var(--primary)"
+  ha-color-primary-05: "-"
+  ha-color-primary-10: "-"
+  ha-color-primary-20: "-"
+  ha-color-primary-30: "-"
+  ha-color-primary-40: "-"
+  ha-color-primary-50: "-"
+  ha-color-primary-60: "-"
+  ha-color-primary-70: "-"
+  ha-color-primary-80: "-"
+  ha-color-primary-90: "-"
+  ha-color-primary-95: "-"
+  ha-card-background: var(--vn-bg-card)
+  ha-card-border-width: 0px
+  ha-card-border-style: none
+  ha-card-border: none
+  ha-dialog-surface-background: var(--vn-bg-card)
+  ha-dialog-header-title-color: var(--vn-text-primary)
+  ha-slider-thumb-negative-color: var(--vn-text-disabled)
+  ha-assist-chip-filled-container-color: var(--vn-bg-secondary)
+  ha-color-shadow-light: var(--vn-bg-main)
+  ha-color-shadow-dark: var(--vn-bg-main)
+  ha-color-surface-default: var(--vn-bg-card)
+  ha-color-on-surface-default: var(--vn-text-primary)
+  ha-dialog-scrim-backdrop-filter: none
+  ha-tooltip-font-family: var(--font-family)
+  ha-font-family-body: var(--font-family)
+  ha-font-family-heading: var(--font-family)
+  ha-font-family-longform: var(--font-family)
+  ha-color-on-primary-normal: var(--vn-text-primary)
+
+  version: 0.0.8
